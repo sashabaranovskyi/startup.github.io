@@ -1,0 +1,688 @@
+/*Header*/
+
+
+body {
+	font-size: 14px;
+}
+.header {
+	background-image: url(../images/background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	background-blend-mode: multiply;
+	background-color: rgba(0, 0, 0, 0.4);
+	position: relative;
+}
+.startup {
+ display: inline-block;
+  font-size: 2.4em;
+  font-family: "Montserrat", serif;
+  color: #fff;
+  font-weight: 900;
+  
+}
+.welcome {
+	color: #fff;
+	margin-top: 0;
+ 	padding-top: 1em;
+	font-size: 4.8em;
+	text-transform: uppercase;
+	font-family: "Montserrat", serif;
+}
+.mini-header {
+	color: #fff;
+}
+.button {
+  display: block;
+  margin: 2em auto;
+  width: 170px;
+  background-color: transparent;
+  font-size: 1.6em;
+  color: #fff;
+  text-transform: uppercase;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 2px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+ 
+}
+.header   a:hover {
+	text-decoration: none;
+}
+.button:hover {
+	background-color: #fff;
+	color: #c0301c;
+	transition: all 0.7s;
+}
+#navbar{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+   
+    position: absolute;
+    top: 8em;
+    right: 10em;
+}
+#navbar li {
+		display: inline-block;
+		text-align: center;
+}
+#navbar li a {
+        display: block;
+		padding-left: 0.3em;
+		padding-right: 0.3em;
+        font-size: 1.6em;
+        font-family: 'Montserrat', serif;
+		font-weight: 400;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+}
+#navbar li a:hover {
+	transition: all 0.7s;
+	background-color: rgba(227,86,16,.5);
+	border-radius: 20px;
+}
+.navbar {
+ 	margin: 0 auto;
+ }
+.menu {
+	display: none;
+}
+.button-btn {
+    width: 120px;
+	height: 50px;
+	border: none;
+	border-radius: 5px;
+	background-color: rgba(227,86,16,.6);
+}
+.button-btn h5 {
+	color: #fff;
+	text-transform: uppercase;
+	margin: 0 auto;
+	font-size: 2.5em;
+}
+.button-btn:focus {
+	outline: none;
+}
+.nav li a {
+	font-size: 1em;
+	text-transform: uppercase;
+	color: #f5f5f5;
+}
+.nav li a:hover {
+	text-decoration: none;
+	transition: all 0.7s;
+	background-color: rgba(227,86,16,.5);
+	border-radius: 20px;
+}
+.nav li a {
+	padding: 0 1em;
+}
+/*SERVICES*/
+.texting-header {
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Montserrat', serif;
+	font-weight: 400;
+	font-size: 2em;
+	color: #555555;
+	margin-top: 3em;
+}
+
+
+.services span {
+	display: block;
+	width: 5em;
+	height: 2px;
+    background-color: rgb(85, 85, 85);
+	margin: 2em auto;
+}
+.offer {
+	text-align: center;
+	 font-family: "RobotoSlab", serif;
+	 font-size: 1em;
+	 font-weight: 400;
+	 color: rgb(85, 85, 85);
+}
+.product-sircle {
+	width: 9em;	
+	height: 9em;
+    background-color: rgb(192, 48, 28);
+	border-radius: 50%;
+	margin: 2em auto;
+}
+.product-1 h1 {
+	text-align: center;
+	color: #fff;
+	padding-top: 0.9em;
+	font-family: serif;
+}
+.text-header {
+	 text-align: center;
+	 font-family: "Montserrat", serif;
+	 font-size: 1.4em;
+	 color: rgb(85, 85, 85);
+	 text-transform: uppercase;
+	 margin-top: 2em;
+}
+.lorem-text {
+	font-size: 1em;
+	font-family: "RobotoSlab", serif;
+	color: rgb(85, 85, 85);
+	text-align: center;
+}
+.product-border {
+	width: 9em;
+	height: 9em;
+	border: 2px solid rgb(221, 221, 221);
+    border-radius: 50%;
+	margin: 2em auto;
+	text-align: center;
+}
+.product-border img {
+	margin-top: 2.6em;
+}
+.product-code img {
+	margin-top: 2.9em;
+}
+/*ABOUT US*/
+.about-us {
+	background: url(../images/aboutbg.png);
+}
+.about-header {
+	padding-top: 2em;
+}
+.about-us span {
+	display: block;
+	width: 5em;
+	height: 2px;
+    background-color: rgb(85, 85, 85);
+	margin: 2em auto;
+}
+.lorem-texting {
+  font-size: 1em;
+  font-family: "RobotoSlab", serif;
+  color: rgb(85, 85, 85);
+  text-align: left;
+}
+
+.about-img {
+	text-align: center;
+}
+.name {
+  padding-top: 1em;
+  font-size: 1.4em;
+  font-family: "Montserrat", serif;
+  color: rgb(85, 85, 85);
+  text-transform: uppercase;
+  margin-bottom: 0em;
+}
+.description {
+  font-size: 1.2em;
+  font-family: "RobotoSlab", serif;
+  color: rgb(85, 85, 85);
+}
+/*WORKS*/
+.works span {
+	display: block;
+	width: 5em;
+	height: 2px;
+    background-color: rgb(85, 85, 85);
+	margin: 2em auto;
+}
+.works-menu {
+	list-style: none;
+	padding-left: 0;
+}
+.works-menu li {
+	display: inline-block;
+	padding:  0.5em;
+}
+.works-menu li a {
+	   color:  rgb(85, 85, 85);
+
+}
+.works-menu li a:hover {
+  color: rgb(192, 48, 28);
+  text-decoration: none;
+
+}
+.works-img {
+	text-align: center;
+	position: relative;
+}
+
+.works-img  {
+	margin-bottom: 1em;
+}
+.works-img:hover .effect {
+	display: block;	
+}
+.works-img img {
+	width: 100%;
+	height: 100%;
+}
+.effect {
+	background: url(../images/bgcl.png);
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	/*bottom: 0;
+	right: 0;*/
+}
+.header-effect {
+	padding-top: 1.5em;
+	color: #fff;
+	font-size: 1.8em;
+	font-family: "Montserrat", serif;
+}
+.effect-text {
+	color: #fff;
+	font-size: 1.2em;
+	font-family: "RobotoSlab", serif;
+
+}
+.effect-btn {
+   width: 5em;
+   height: 2em;
+   text-transform: uppercase;
+   font-size: 1em;
+   font-family: "RobotoSlab", serif;
+   color: rgb(192, 48, 28);
+   border: none;
+   background-color: #fff;
+}
+.effect-btn img {
+	width: 5px;
+	height: 5px;
+}
+.effect-btn:focus {
+	outline: none;
+}
+.effect-btn:hover {
+	cursor: pointer;
+}
+.header-effect, .effect-text:hover {
+	cursor: default;
+}
+/*PROFFER*/
+.proffer {
+	background: url(../images/proffer-bg.png) no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-blend-mode: multiply;
+	background-color: rgb(192, 48, 28);
+	padding-bottom: 2em;
+	margin-top: 1.5em;
+}
+.proffer h4 {
+	padding-top: 2em;
+	text-align: center;
+	line-height: 1.5em;
+	font-size: 2em;
+	font-family: "RobotoSlab", serif;
+    color: rgb(255, 255, 255);
+}
+.proffer a:hover {
+	text-decoration: none;
+}
+.btn-proffer {
+	margin-bottom: 2em;
+}
+
+/*BLOG*/
+
+.blog-head {
+	font-size: 1em;
+}
+.blog span {
+	display: block;
+	width: 5em;
+	height: 2px;
+    background-color: rgb(85, 85, 85);
+	margin: 2em auto;
+}
+.calendar {
+	width: 5em;
+	height: 5em;
+	border: 2px solid rgb(85, 85, 85);
+	font-family: "Montserrat", serif;
+    color: rgb(119, 119, 119);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 0.8em;
+    margin-right: 1em;
+    float: left;
+
+}
+.image-blog img {
+	padding-bottom: 1em;
+}
+.text-right-blog {
+	text-transform: uppercase;
+	font-size: 1.3em;
+	color: rgb(192, 48, 28);
+	font-family: "Montserrat", serif;
+	margin-bottom: 0.5em;
+}
+.text-right-blog-2 {
+	 font-family: "RobotoSlab", serif;
+  color: rgb(119, 119, 119);
+}
+.text-right-blog-2 span {
+	color: rgb(192, 48, 28);
+}
+.lorem-blog {
+	  font-family: "RobotoSlab", serif;
+  	  color: rgb(85, 85, 85);
+  	  font-size: 0.9em;
+}
+.read-more {
+	text-transform: uppercase;
+	font-family: "RobotoSlab", serif;
+    font-weight: bold;
+}
+.read-red {
+	color: rgb(192, 48, 28);
+}
+
+/*CLIENTS*/
+.clients {
+	background: url(../images/aboutbg.png) no-repeat center center;
+}
+.clients img {
+	display: inline-block;
+	width: 6em;
+	margin: 0.5em;
+	margin-left: 2em;
+}
+.clients {
+	text-align: center;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+.clients-text {
+  font-size: 1em;
+  font-family: "RobotoSlab", serif;
+  color: rgb(85, 85, 85);
+}
+.text-author {
+  font-size: 1em;
+  font-family: "RobotoSlab", serif;
+  color: rgb(85, 85, 85);
+  margin-bottom: 0;
+}
+.circle-circle {
+	 border-radius: 50%;
+     background-color: rgb(221, 221, 221);
+     width: 0.7em;
+     height: 0.7em;
+     display: inline-block;
+}
+.circle-circle:target {
+	background-color: rgb(192, 48, 28);
+}
+.circle-circle:hover {
+	cursor: default;
+}
+/*CONTACTS*/
+.get-in-touch span {
+	display: block;
+	width: 5em;
+	height: 2px;
+    background-color: rgb(85, 85, 85);
+	margin: 2em auto;
+}
+.get-in-touch {
+	text-align: center;
+}
+#contacts {
+	padding-bottom: 3em;
+}
+.text-contacts {
+  font-size: 1.3em;
+  font-family: "RobotoSlab", serif;
+  color: rgb(85, 85, 85);
+}
+.address {
+  font-family: "Montserrat", serif;
+  color: rgb(85, 85, 85);
+  text-transform: uppercase;
+  font-weight: 900;
+  display: inline-block;
+}
+.local {
+	margin-right: 1em;
+}
+.adres-bottom {
+	margin-bottom: 3em;
+}
+.address-text img {
+	display: inline-block;
+}
+.address-text address {
+	font-size: 0.8em;
+}
+.form-contact {
+	margin-right: 2em;
+	margin-bottom: 1.5em;
+	border: 1px solid rgb(85, 85, 85);
+	height: 42px;
+}
+
+.form-contact:focus {
+	border: 1px solid rgb(192, 48, 28);
+	outline: none;
+	padding-left: 2em;
+}
+
+.form-main input {
+	padding-left: 2em;
+	text-transform: uppercase;
+	font-family: "RobotoSlab", serif;
+}
+
+.textarea:focus {
+	border: 1px solid rgb(192, 48, 28);
+	outline: none;
+	padding-left: 2em;
+}
+textarea {
+	padding-left: 2em;
+	padding-top: 1em;
+	text-transform: uppercase;
+	font-family: "RobotoSlab", serif;
+	resize: none;
+	height: 6em;
+	border: 1px solid rgb(85, 85, 85);;
+}
+.send-message {
+	background-color: transparent;
+	border: 1px solid rgb(85, 85, 85);
+	margin-top: 1em;
+	padding: 1em 2em;
+	display: inline-block;
+	float: left;
+	margin-right: 2em;
+}
+.send-message:hover {
+	cursor: pointer;
+}
+.send-message:focus {
+	outline: none;
+}
+.star {
+	color: red;
+}
+.form-text {
+	margin-top: 2em;
+	
+}
+
+
+/*FOOTER*/
+.footer {
+	background: url(../images/footerbg.png);
+	padding-top: 2em;
+	padding-bottom: 2em;
+	text-align: center;
+}
+.footerimg {
+	display: inline-block;
+	width: 3em;
+	height: 3em;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	margin: 0.5em;
+}
+.footerimg img {
+	margin-top: 1em;
+}
+.footer-line {
+	display: block;
+	width: 5em;
+	height: 2px;
+    background-color: #fff;
+	margin: 2em auto;
+}
+.footer-symbol {
+	color: #fff;
+}
+.footer-bottom {
+  font-size: 12px;
+  font-family: "RobotoSlab", serif;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+@media (min-width: 390px) and (max-width: 575px) {
+	.header-effect {
+		padding-top: 5em;
+	}
+}
+@media (max-width: 768px) {
+	.navbar {
+		display: block;
+	}
+	.menu {
+		display: block;
+	}
+	.startup {
+	font-size: 4em;
+	}
+	.header {
+	text-align: center;
+	padding-top: 1em;
+	}
+	.welcome {
+		font-size: 2.5em;
+		padding-top: 0em;
+	}
+	#navbar {
+		display: none;
+	}
+	.proffer h4 {
+		font-size: 1.5em;
+	}
+	.form-contact {
+		width: 300px;
+	}
+	.textarea {
+		width: 300px;
+	}
+	.adres-bottom {
+	margin-bottom: 0;
+	}
+	.send-message {
+		float: none;
+		display: block;
+		margin: 1em auto;
+	}
+	.frm {
+		text-align: center;
+	}
+	.form-contact {
+		margin-right: 0;
+	}
+	.ad {
+		text-align: center;
+	}
+	
+	.form-text {
+		text-align: center;
+	}
+}
+@media (min-width: 769px) and (max-width: 991px) {
+	.startup {
+		padding: 3em 0 0 1em;
+	}
+	#navbar li a {
+		padding-left: 0.5em;
+		font-size: 1.9em;
+	}
+	#navbar {
+		padding-top: 3.8em;
+		right: 3em;
+		font-size: 0.7em;
+	}
+	.form-contact {
+		width: 190px;
+	}
+	.textarea {
+		width: 412px;
+	}
+}
+@media (min-width: 992px) {
+	.startup {
+		padding: 3em 0 0 2em;
+	}
+	#navbar {
+		padding-top: 0.2em;
+		right: 3em;
+		font-size: 1em;
+	}
+	.form-contact {
+		width: 270px;
+	}
+	.textarea {
+		width: 572px;
+	}
+}
+@media (min-width: 1200px) {
+	.startup {
+		padding: 3em 0 0 7em;
+	}
+	#navbar {
+		right: 4em;
+
+	}
+	.form-contact {
+		width: 300px;
+	}
+	.textarea {
+		width: 631px;
+	}
+}
+
+
+.jh {
+	position: relative;
+}
+.lk {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../images/bgcl.png);
+	width: 100%;
+	height: 100%;
+}
